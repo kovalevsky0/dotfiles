@@ -1,0 +1,23 @@
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'christoomey/vim-tmux-navigator'
+set -g @plugin 'jimeh/tmux-themepack'
+
+set -ga terminal-overrides ',*256col*:Tc'
+set -sg escape-time 0
+set -g default-terminal "screen-256color"
+
+set -g mouse on
+
+
+set -goqF @powerline-status-bg colour235
+set -goq @powerline-color-main-1 colour104
+set -goq @powerline-color-main-2 colour104
+
+set -g @themepack 'powerline/block/blue'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+
+

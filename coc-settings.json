@@ -1,0 +1,14 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "scss"
+  ],
+  "eslint.filetypes": ["javascript", "javascriptreact"],
+  "eslint.quiet": true,
+  "diagnostic.checkCurrentLine": true
+}
