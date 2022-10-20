@@ -1,0 +1,7 @@
+set relativenumber
+set number
+set clipboard+=unnamed
+
+vnoremap < <gv
+vnoremap > >gv
+
